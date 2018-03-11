@@ -1,0 +1,15 @@
+body{
+    background-image: url('https://www.customsoftwarelab.com/wp-content/uploads/2016/03/top-web-development-tools-every-developer-should-use.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+h1 {
+    padding-top: 100px;
+    font-size: 3em;
+
+}
+.content{
+    text-align: center;
+    color: white;
+}
