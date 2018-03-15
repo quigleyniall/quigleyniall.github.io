@@ -1,4 +1,28 @@
-p{
-    color: black;
-    font-size: 1.5em;
+h1{
+    padding-top: 1vw;
+    color:white;
+    font-size: 2vw;
+}
+p {
+    color: white;
+    padding-bottom: 1vw;
+    font-size: 1.4vw;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    position: relative;
+}
+button{
+    position:absolute;
+    top: 10%;
+    left:50%;
+}
+.container1{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+
 }
