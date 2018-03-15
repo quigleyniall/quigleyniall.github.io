@@ -20,7 +20,7 @@ h1{
 span{
     font-size: 3vw;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     img{
         height: auto;
     }
