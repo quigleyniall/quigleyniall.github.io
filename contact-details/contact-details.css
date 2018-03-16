@@ -1,12 +1,12 @@
 h1{
     padding-top: 1vw;
     color:white;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 p {
     color: white;
     padding-bottom: 1vw;
-    font-size: 1.4vw;
+    font-size: 1.9vw;
 }
 img{
     width: 100%;
@@ -24,17 +24,5 @@ button{
     position: absolute;
     top: 10%;
     left: 35%;
-
-}
-@media screen and (max-width: 500px){
-    .container1{
-        position:static;
-    }
-    p{
-        color:black;
-    }
-    h1{
-        color:black;
-    }
 
 }

@@ -39,3 +39,11 @@ body{
 .space:before{
     clear:left;
 }
+@media screen and (max-width:500px){
+    p{
+        font-size: 16px;
+    }
+    h1{
+        font-size:25px;
+    }
+}
