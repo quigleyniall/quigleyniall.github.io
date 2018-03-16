@@ -7,21 +7,24 @@ img{
     height: 100%;
 }
 .heading {
-   position: absolute;
-    top:5%;
-    width:100%;
+    position: absolute;
+    top: 5%;
+    width: 100%;
     color: black;
     text-align: center;
 
 }
+
 h1{
     font-size: 4vw;
 }
 span{
     font-size: 3vw;
 }
+
 @media screen and (max-width: 500px){
     img{
         height: auto;
     }
+
 }

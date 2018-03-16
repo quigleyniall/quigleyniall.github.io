@@ -6,26 +6,24 @@ h1{
 p {
     color: white;
     padding-bottom: 1vw;
-    font-size: 1.9vw;
+    font-size: 1.7vw;
 }
 img{
     width: 100%;
     height: auto;
+
 }
 .container{
     position: relative;
 }
-button{
-    position:absolute;
-    top: 10%;
-    left:50%;
-}
+
 .container1{
     position: absolute;
     top: 10%;
     left: 35%;
 
 }
+/*Animation*/
 h1{
     width: 0px;
     height: 0px;
@@ -39,8 +37,8 @@ h1{
 
 
 @keyframes example {
-    0% {width: 0;height: 3vw;}
-    100% {width: 100%; height: 3vw;}
+    0% {width: 0;height: 4vw;}
+    100% {width: 100%; height: 4vw;}
 }
 .first{
     width: 0px;
@@ -56,8 +54,8 @@ h1{
 
 
 @keyframes n {
-    0% {width: 0;height: 1.4vw;}
-    100% {width: 100%; height: 1.4vw;}
+    0% {width: 0;height: 2vw;}
+    100% {width: 100%; height: 2vw;}
 }
 .second{
     width: 0px;
@@ -73,8 +71,8 @@ h1{
 
 
 @keyframes second {
-    0% {width: 0;height: 1.4vw;}
-    100% {width: 100%; height: 1.4vw;}
+    0% {width: 0;height: 1.9vw;}
+    100% {width: 100%; height: 1.9vw;}
 }
 .third{
     width: 0px;
@@ -90,12 +88,75 @@ h1{
 
 
 @keyframes t {
-    0% {
-        width: 0;
-        height: 1.4vw;
+    0% {width: 0; height: 1.9vw;}
+    100% {width: 100%;height: 1.9vw;}
+}
+/*form*/
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.col-25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+.col-75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+input[type="submit"]{
+    float:right;
+    background-color: #4CAF50;
+    margin-top: 20px;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+input[type="submit"]:hover{
+    background-color: #4CA049;
+    box-shadow: 5px 5px 0 black;
+}
+input[type="text"], textarea{
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+label{
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+}
+.row:after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+@media screen and (max-width: 500px){
+    .col-25, .col-75, input[type="submit"]{
+        clear:left;
+        width:100%;
     }
-    100% {
-        width: 100%;
-        height: 1.4vw;
+    label{
+        padding-bottom:0;
     }
+}
+
+/*map*/
+.map-container{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
