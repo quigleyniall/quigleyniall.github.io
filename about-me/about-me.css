@@ -1,7 +1,7 @@
 
 p {
    font-size: 1.5em;
-color:black;
+   color:black;
     padding-bottom: 1vw;
 }
 h1{
@@ -9,9 +9,9 @@ h1{
     padding-top: 1vw;
 }
 body{
- background-size:100%;
+    background-size:100%;
     background-repeat: no-repeat;
-    color: white;
+    background-color: #f9f9f9;
 }
 a{
     text-decoration: none;
@@ -24,16 +24,17 @@ a{
     width: 100%;
     height: 180px;
 }
-@media screen and (max-width: 600px){
-    .gallery{
+@media screen and (max-width: 600px) {
+    .gallery {
         clear: left;
-        width:100%;
+        width: 100%;
     }
+}
 p:after{
     content: "";
     display: table;
     clear:both;
-}
+
 }
 .img1{
     float:right;
@@ -47,6 +48,7 @@ p:after{
         display: table;
         clear:both;
         width:100%;
+
 
     }
     p{

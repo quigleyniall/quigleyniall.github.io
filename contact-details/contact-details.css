@@ -26,3 +26,76 @@ button{
     left: 35%;
 
 }
+h1{
+    width: 0px;
+    height: 0px;
+    overflow:hidden;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes example {
+    0% {width: 0;height: 3vw;}
+    100% {width: 100%; height: 3vw;}
+}
+.first{
+    width: 0px;
+    height: 0px;
+    overflow:hidden;
+    animation-name: n;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes n {
+    0% {width: 0;height: 1.4vw;}
+    100% {width: 100%; height: 1.4vw;}
+}
+.second{
+    width: 0px;
+    height: 0px;
+    overflow:hidden;
+    animation-name: second;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes second {
+    0% {width: 0;height: 1.4vw;}
+    100% {width: 100%; height: 1.4vw;}
+}
+.third{
+    width: 0px;
+    height: 0px;
+    overflow:hidden;
+    animation-name: t;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes t {
+    0% {
+        width: 0;
+        height: 1.4vw;
+    }
+    100% {
+        width: 100%;
+        height: 1.4vw;
+    }
+}
