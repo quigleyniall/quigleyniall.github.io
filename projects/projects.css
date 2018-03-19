@@ -1,7 +1,7 @@
-h1 {
+.project-container h1 {
     padding-top: 1vw;
 }
-p{
+.project-container p{
     font-size: 1.5em;
     clear:left;
 
@@ -20,6 +20,7 @@ body{
 
 .gallery:hover {
     border: 1px solid #777;
+   box-shadow: 2px 2px 0px #f9f9f9;
 }
 
 .gallery img {
@@ -39,13 +40,14 @@ body{
 }
 @media screen and (max-width:500px){
 
-    p{
+    .project-container p{
         font-size: 16px;
     }
-    h1{
+    .project-container h1{
         font-size:25px;
     }
     .gallery{
-        width:170px;
+        width:180px;
     }
 }
+

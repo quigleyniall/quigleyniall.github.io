@@ -1,12 +1,16 @@
+* {
+    box-sizing: border-box;
+}
 .content{
+
     position: relative;
     margin-top: 2px;
  }
-img{
+.content img{
     width:100%;
     height: 100%;
 }
-.heading {
+.content .heading {
     position: absolute;
     top: 5%;
     width: 100%;
@@ -15,7 +19,7 @@ img{
 
 }
 
-h1{
+.content h1{
     font-size: 4vw;
 }
 span{
@@ -23,8 +27,52 @@ span{
 }
 
 @media screen and (max-width: 500px){
-    img{
+    .content img{
         height: auto;
+    }
+
+}
+.content-container{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    content: "";
+    display:table;
+    clear:both;
+}
+.content-container .column{
+    width: 33%;
+    float:left;
+    text-align:center;
+}
+.content-container a{
+   text-decoration: none;
+    padding: 20px 0px 20px 0px;
+}
+.content-container img{
+    width:100%;
+    height: 250px;
+    margin-top: 20px;
+}
+button{
+    padding: 5px;
+    background-color: dodgerblue;
+    cursor:pointer;
+    border-radius: 5px;
+}
+button:hover{
+    box-shadow: 2px 2px 0px dodgerblue;
+}
+@media screen and (max-width: 600px){
+    .content-container .column{
+        clear:left;
+        width:100%;
+
+    }
+    .content-container img{
+        height: 160px;
+    }
+    .content-container a{
+        margin-bottom: 20px;
     }
 
 }

@@ -25,6 +25,7 @@ myApp1.config(function($routeProvider) {
 
 
 myApp1.controller('maincontroller',['$scope','$route', function ($scope, $route) {
+
     $scope.initialize = function initMap() {
        var uluru= {lat: 53.979019, lng: -6.516521};
         var map = new google.maps.Map(document.getElementById('map_div'), {

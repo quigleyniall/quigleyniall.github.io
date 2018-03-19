@@ -33,3 +33,47 @@ ul.nav-main li{
         padding: 5px;
     }
 }
+
+footer{
+    background-color: grey;
+    color:white;
+    display: block;
+    clear:left;
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+.left{
+    float:left;
+    padding-left: 100px;
+}
+.left p:after{
+    clear:left;
+}
+.right{
+    float:right;
+    padding-right: 100px;
+}
+.right i{
+padding-left: 10px;
+    margin-top: 20px;
+font-size: 40px;
+}
+
+
+@media screen and (max-width: 600px){
+    .right{
+        float:none;
+        text-align: center;
+        padding:0px;
+    }
+    .left{
+        float:none;
+        text-align: center;
+        padding:0px;
+    }
+    footer{
+        height: 330px;
+    }
+}
